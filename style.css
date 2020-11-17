@@ -75,11 +75,12 @@ img {
 
 /* iphone and smartphone devices */
 @media screen and (max-width: 420px){
+
+
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
-    float: none;
-    text-align: center;
   }
 
   #lezioni .row img {
@@ -92,7 +93,6 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    float: none;
     width: 100%;
   }
   .container.grey {
@@ -103,13 +103,12 @@ img {
 }
 /* iphone and smart phones devices end */
 
-/* ipad,tables sizes */
+/* ipad,tablets sizes */
 @media screen and (min-width: 768px) {
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
-    float: none;
-    text-align: center;
+
   }
 
   #lezioni .row img {
@@ -122,7 +121,7 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    float: none;
+    
     width: 100%;
   }
   .container.grey {
@@ -132,4 +131,4 @@ img {
 
 
 }
-/* ipad,tables sizes */
+/* ipad,tablets sizes */
